@@ -12,11 +12,11 @@ Steps to use 01_System.py:
 4) Call the 'run' function passing all the parameters.
 
 Example Usage:
-P=[Particle(V(0,0,0),1,1)]
-R=[[-10,10],[-10,10],[-10,10]]
-dx=0.5
-density=25
-run(P,R,dx,density)
+  P=[Particle(V(0,0,0),1,1)] 
+  R=[[-10,10],[-10,10],[-10,10]]
+  dx=0.5
+  density=25
+  run(P,R,dx,density)
 
 Other Files:
 1) Vector.py: Defines vector and all its  mathematical operations
