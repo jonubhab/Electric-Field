@@ -2,7 +2,7 @@ from matplotlib import colors
 import numpy as np
 from matplotlib.colors import ListedColormap
 from scipy.stats import ortho_group
-from Line import *
+from Utility import *
 from Vector import Vector as V
 from mpl_toolkits.mplot3d.art3d import Line3DCollection
 
@@ -81,3 +81,4 @@ dx=0.5
 density=25
 run(P,R,dx,density)
 '''
+
